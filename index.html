@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Sompal Ahirwar - Aspiring Data Scientist specializing in Machine Learning, NLP, and AI Solutions." />
+  <title>Sompal Ahirwar | Data Science Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Sompal<span>Ahirwar</span></a>
+      <nav class="site-nav" id="siteNav" aria-label="Primary Navigation">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home / Introduction -->
+    <section id="home" class="section hero reveal">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="kicker">Hello, I'm</p>
+          <h1>Sompal Ahirwar</h1>
+          <h2 class="headline">Aspiring Data Scientist | Machine Learning | NLP | AI Solutions</h2>
+          <p class="summary">I’m passionate about solving real-world problems using data-driven approaches. I build end-to-end AI solutions across ML, NLP, and analytics — from data wrangling and modeling to deployment and dashboards.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="./assets/resume/Sompal_Ahirwar_Resume.pdf">
+                <i class="fa-solid fa-file-arrow-down"></i>
+                Download Resume
+              </a>
+              
+            <a class="btn ghost" href="#contact">
+              <i class="fa-solid fa-paper-plane"></i>
+              Get in Touch
+            </a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img id="profilePhoto" class="profile-photo" src="assets/img/som.jpg" alt="Sompal Ahirwar" loading="lazy" />
+          <!-- <div class="orbit"> -->
+            <!-- <i class="fa-solid fa-brain"></i> -->
+            <!-- <i class="fa-solid fa-robot"></i> -->
+            <!-- <i class="fa-solid fa-database"></i> -->
+            <!-- <i class="fa-solid fa-chart-line"></i> -->
+          </div>
+        <!-- </div> -->
+      </div>
+    </section>
+
+    <!-- Insights / Portfolio Graphs -->
+    <section id="insights" class="section reveal">
+      <div class="container">
+        <h3 class="section-title">Insights</h3>
+        <p class="kicker">A snapshot of my portfolio across categories and skill strengths.</p>
+        <div class="chart-grid">
+          <div class="chart-card">
+            <h4><i class="fa-solid fa-diagram-project"></i> Projects by Category</h4>
+            <canvas id="chartProjects" width="400" height="300" aria-label="Projects by category" role="img"></canvas>
+          </div>
+          <div class="chart-card">
+            <h4><i class="fa-solid fa-gauge-high"></i> Skills Strength</h4>
+            <canvas id="chartSkills" width="400" height="300" aria-label="Skills strength" role="img"></canvas>
+          </div>
+          <div class="chart-card">
+            <h4><i class="fa-solid fa-screwdriver-wrench"></i> Tech Usage Frequency</h4>
+            <canvas id="chartTech" width="400" height="300" aria-label="Tech usage frequency" role="img"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section reveal">
+      <div class="container">
+        <h3 class="section-title">About Me</h3>
+        <div class="two-col">
+          <p>
+            I'm pursuing an M.Tech in Computer Science and Engineering at Shri Krishna University (2024–2026). I enjoy turning data into insight and insight into action. My goal is to become a Data Scientist who builds impactful ML/NLP systems that improve products and user experiences.
+          </p>
+          <p>
+            I’ve worked on projects ranging from chatbots and classification models to analytical dashboards. I care about code quality, reproducible workflows, and clear communication.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section reveal alt">
+      <div class="container">
+        <h3 class="section-title">Skills</h3>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h4><i class="fa-solid fa-code"></i> Languages</h4>
+            <ul>
+              <li>Python</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h4><i class="fa-solid fa-gears"></i> Machine Learning</h4>
+            <ul>
+              <li>Scikit-learn</li>
+              <li>XGBoost</li>
+              <li>LightGBM</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h4><i class="fa-solid fa-brain"></i> Deep Learning & NLP</h4>
+            <ul>
+              <li>TensorFlow, Keras, PyTorch</li>
+              <li>NLTK, spaCy</li>
+              <li>Transformers</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h4><i class="fa-solid fa-chart-simple"></i> Data Analysis & Visualization</h4>
+            <ul>
+              <li>Pandas, NumPy, Excel</li>
+              <li>Matplotlib, Seaborn, Plotly</li>
+              <li>Power BI</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h4><i class="fa-solid fa-cloud"></i> Databases & Cloud</h4>
+            <ul>
+              <li>MySQL, MongoDB</li>
+              <li>AWS (S3, EC2)</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h4><i class="fa-solid fa-toolbox"></i> Tools</h4>
+            <ul>
+              <li>Git, Jupyter, VS Code, Anaconda</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section reveal">
+      <div class="container">
+        <h3 class="section-title">Experience</h3>
+        <div class="experience-item">
+          <div class="exp-header">
+            <h4>Data Scientist / Analyst Intern</h4>
+            <span>RPS Business Solutions, Indore</span>
+          </div>
+          <ul class="exp-points">
+            <li>Conducted data analysis to discover insights and support decision-making.</li>
+            <li>Trained and evaluated NLP models for classification and automation tasks.</li>
+            <li>Developed dashboards to track KPIs and communicate results to stakeholders.</li>
+            <li>Collaborated in a team environment, contributing to end-to-end project delivery.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section reveal alt">
+      <div class="container">
+        <h3 class="section-title">Projects</h3>
+        <div class="project-filters" aria-label="Project Filters">
+          <!-- buttons injected by content.js -->
+        </div>
+        <div class="cards-grid">
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-comments"></i></div>
+            <h4>WhatsApp Chatbot Assistant</h4>
+            <p>AI assistant for a jewelry business using Flask, deployed on AWS EC2. Handles FAQs and customer interactions with NLP.</p>
+            <ul class="tags">
+              <li>Flask</li><li>AWS EC2</li><li>NLP</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            <h4>Heart Disease Prediction</h4>
+            <p>Binary classification using logistic regression and random forest to predict heart disease risk.</p>
+            <ul class="tags">
+              <li>Logistic Regression</li><li>Random Forest</li><li>scikit-learn</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-film"></i></div>
+            <h4>Movie Genre Classification</h4>
+            <p>NLP project with TF-IDF features and SVM for multi-class genre prediction.</p>
+            <ul class="tags">
+              <li>TF-IDF</li><li>SVM</li><li>NLTK</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="card-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+            <h4>Email Spam Detection</h4>
+            <p>End-to-end ML pipeline using decision trees and ensemble methods to classify spam vs ham.</p>
+            <ul class="tags">
+              <li>Decision Trees</li><li>Ensembles</li><li>Python</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section reveal">
+      <div class="container">
+        <h3 class="section-title">Education</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <h4>M.Tech in CSE (Pursuing)</h4>
+              <p>Shri Krishna University (2024–2026)</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-dot"></div>
+            <div class="tl-content">
+              <h4>B.Tech in CSE</h4>
+              <p>RGPV University (2019–2023) — CGPA: 8.14</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section reveal alt">
+      <div class="container">
+        <h3 class="section-title">Certifications</h3>
+        <ul class="cert-list">
+          <li>
+            <i class="fa-solid fa-certificate"></i>
+            Industrial Training at Bignalytics IT Solutions – Master's Program in AI & ML
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section reveal">
+      <div class="container">
+        <h3 class="section-title">Contact</h3>
+        <div class="contact-grid">
+          <a class="contact-item" href="mailto:sompalahirwar18@gmail.com" target="_blank" rel="noreferrer">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+            <small>sompalahirwar18@gmail.com</small>
+          </a>
+          <a class="contact-item" href="tel:+917987745435">
+            <i class="fa-solid fa-phone"></i>
+            <span>Phone</span>
+            <small>+91 7987745435</small>
+          </a>
+          <a class="contact-item" href="https://www.linkedin.com/in/sompal-ahirwar-063291188/" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+            <small>Sompal Ahirwar</small>
+          </a>
+          <a class="contact-item" href="https://github.com/Somahirwar18" target="_blank" rel="noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+            <small>Somahirwar18</small>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Sompal Ahirwar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="assets/js/content.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

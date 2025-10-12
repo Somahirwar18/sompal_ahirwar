@@ -1,0 +1,116 @@
+{
+  "profile": {
+    "name": "Sompal Ahirwar",
+    "headline": "Aspiring Data Scientist | Machine Learning | NLP | AI Solutions",
+    "summary": "I’m passionate about solving real-world problems using data-driven approaches. I build end-to-end AI solutions across ML, NLP, and analytics — from data wrangling and modeling to deployment and dashboards.",
+    "resume": "assets/resume/Sompal_Ahirwar_Resume.pdf",
+    "photo": "assets/img/profile.svg"
+  },
+  "about": {
+    "para1": "I'm pursuing an M.Tech in Computer Science and Engineering at Shri Krishna University (2024–2026). I enjoy turning data into insight and insight into action. My goal is to become a Data Scientist who builds impactful ML/NLP systems that improve products and user experiences.",
+    "para2": "I’ve worked on projects ranging from chatbots and classification models to analytical dashboards. I care about code quality, reproducible workflows, and clear communication."
+  },
+  "skills": {
+    "languages": ["Python", "SQL"],
+    "machine_learning": ["Scikit-learn", "XGBoost", "LightGBM"],
+    "deep_learning_nlp": ["TensorFlow", "Keras", "PyTorch", "NLTK", "spaCy", "Transformers"],
+    "data_viz": ["Pandas", "NumPy", "Excel", "Matplotlib", "Seaborn", "Plotly", "Power BI"],
+    "databases_cloud": ["MySQL", "MongoDB", "AWS (S3, EC2)"],
+    "tools": ["Git", "Jupyter", "VS Code", "Anaconda"]
+  },
+  "experience": [
+    {
+      "role": "Data Scientist / Analyst Intern",
+      "company": "RPS Business Solutions, Indore",
+      "points": [
+        "Conducted data analysis to discover insights and support decision-making.",
+        "Trained and evaluated NLP models for classification and automation tasks.",
+        "Developed dashboards to track KPIs and communicate results to stakeholders.",
+        "Collaborated in a team environment, contributing to end-to-end project delivery."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "WhatsApp Chatbot Assistant",
+      "desc": "AI assistant for a jewelry business using Flask, deployed on AWS EC2. Handles FAQs and customer interactions with NLP.",
+      "tags": ["Flask", "AWS EC2", "NLP"],
+      "icon": "fa-comments",
+      "category": "NLP",
+      "link": "#"
+    },
+    {
+      "title": "Heart Disease Prediction",
+      "desc": "Binary classification using logistic regression and random forest to predict heart disease risk.",
+      "tags": ["Logistic Regression", "Random Forest", "scikit-learn"],
+      "icon": "fa-heart-pulse",
+      "category": "ML",
+      "link": "#"
+    },
+    {
+      "title": "Movie Genre Classification",
+      "desc": "NLP project with TF-IDF features and SVM for multi-class genre prediction.",
+      "tags": ["TF-IDF", "SVM", "NLTK"],
+      "icon": "fa-film",
+      "category": "NLP",
+      "link": "#"
+    },
+    {
+      "title": "Email Spam Detection",
+      "desc": "End-to-end ML pipeline using decision trees and ensemble methods to classify spam vs ham.",
+      "tags": ["Decision Trees", "Ensembles", "Python"],
+      "icon": "fa-envelope-open-text",
+      "category": "ML",
+      "link": "#"
+    }
+  ],
+  "education": [
+    { "title": "M.Tech in CSE (Pursuing)", "org": "Shri Krishna University (2024–2026)" },
+    { "title": "B.Tech in CSE", "org": "RGPV University (2019–2023) — CGPA: 8.14" }
+  ],
+  "certifications": [
+    "Industrial Training at Bignalytics IT Solutions – Master's Program in AI & ML."
+  ],
+  "contact": {
+    "email": "sompalahirwar18@gmail.com",
+    "phone": "+91 7987745435",
+    "linkedin": {
+      "label": "Sompal Ahirwar",
+      "url": "https://www.linkedin.com/in/sompal-ahirwar"
+    },
+    "github": {
+      "label": "Somahirwar18",
+      "url": "https://github.com/Somahirwar18"
+    }
+  },
+  "insights": {
+    "project_categories": {
+      "NLP": 2,
+      "ML": 2,
+      "Analytics": 0
+    },
+    "skills_strength": {
+      "Python": 9,
+      "SQL": 7,
+      "ML": 8,
+      "DL/NLP": 8,
+      "Data Viz": 7,
+      "Cloud": 6
+    },
+    "tech_frequency": {
+      "scikit-learn": 3,
+      "TensorFlow": 2,
+      "PyTorch": 1,
+      "NLTK": 2,
+      "spaCy": 1,
+      "Transformers": 1,
+      "XGBoost": 2,
+      "LightGBM": 1,
+      "Pandas": 4,
+      "NumPy": 4,
+      "Matplotlib": 3,
+      "Seaborn": 3,
+      "Plotly": 1
+    }
+  }
+}
