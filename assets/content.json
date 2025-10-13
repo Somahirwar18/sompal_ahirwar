@@ -28,8 +28,29 @@
         "Developed dashboards to track KPIs and communicate results to stakeholders.",
         "Collaborated in a team environment, contributing to end-to-end project delivery."
       ]
+    },
+
+    {
+      "role": "Assistant Data Analyst ",
+      "company": "Buildtech Engineers, Ludhiana",
+      "points": [
+        "Collected, cleaned, and interpreted large datasets for business reporting.",
+        "Identified data patterns and trends to improve decision-making efficiency",
+        "Supported internal reporting systems and data quality improvement initiatives."
+      ]
+    },
+    {
+      "role": "Data Scientist / Analyst Intern",
+      "company": "RPS Business Solutions, Indore",
+      "points": [
+        "Conducted data analysis to discover insights and support decision-making.",
+        "Trained and evaluated NLP models for classification and automation tasks.",
+        "Developed dashboards to track KPIs and communicate results to stakeholders.",
+        "Collaborated in a team environment, contributing to end-to-end project delivery."
+      ]
     }
   ],
+
   "projects": [
     {
       "title": "WhatsApp Chatbot Assistant",
@@ -76,7 +97,7 @@
     "phone": "+91 7987745435",
     "linkedin": {
       "label": "Sompal Ahirwar",
-      "url": "https://www.linkedin.com/in/sompal-ahirwar"
+      "url": "www.linkedin.com/in/sompal-ahirwar-063291188"
     },
     "github": {
       "label": "Somahirwar18",
