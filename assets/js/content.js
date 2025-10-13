@@ -53,10 +53,10 @@
     })();
     const img = document.getElementById('profilePhoto');
     if (img) {
-      const src = profile.photo && profile.photo.trim() ? profile.photo : 'assets/img/profile.svg';
+      const src = profile.photo && profile.photo.trim() ? profile.photo : 'assets/img/som.png';
       img.onerror = () => {
         console.warn('Profile image failed to load, using fallback');
-        img.src = 'assets/img/profile.svg';
+        img.src = 'assets/img/som.png';
       };
       img.src = src;
       if (profile.name) img.alt = profile.name;

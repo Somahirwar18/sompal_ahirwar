@@ -40,18 +40,25 @@
       ]
     },
     {
-      "role": "Data Scientist / Analyst Intern",
-      "company": "RPS Business Solutions, Indore",
+      "role": "Data Science & Machine Learning Intern ",
+      "company": "Infotact Solutions, Remote (Bengaluru)",
       "points": [
-        "Conducted data analysis to discover insights and support decision-making.",
-        "Trained and evaluated NLP models for classification and automation tasks.",
-        "Developed dashboards to track KPIs and communicate results to stakeholders.",
-        "Collaborated in a team environment, contributing to end-to-end project delivery."
+        "Developed end-to-end ML pipelines for predictive modeling projects.",
+        "Conducted data preprocessing, visualization, and model evaluation.",
+        "• Delivered insights through predictive models using TensorFlow and Scikit-learn."
       ]
     }
   ],
 
   "projects": [
+    {
+      "title": "AI-Powered Task Management System",
+      "desc":"Built an NLP-based multi-output classification model to predict task labels from summaries. Integrated with a Streamlit dashboard for real-time insights and visualization. Tools: Python, NLTK, Scikit-learn, Streamlit, Pandas, Matplotlib",
+      "tags": ["Flask", "AWS EC2", "NLP"],
+      "icon": "fa-comments",
+      "category": "NLP",
+      "link": "#"
+    },
     {
       "title": "WhatsApp Chatbot Assistant",
       "desc": "AI assistant for a jewelry business using Flask, deployed on AWS EC2. Handles FAQs and customer interactions with NLP.",
